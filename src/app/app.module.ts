@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BookDataComponent } from './book-data/book-data.component';
+import {TableModule} from 'primeng/table';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { BookDataComponent } from './book-data/book-data.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
