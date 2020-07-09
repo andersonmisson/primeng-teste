@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "primeng-teste"
+    }
+  },
+  "defaultProject": "primeng-teste",
+  "cli": {
+    "analytics": "5b42daab-bbf6-4953-ad66-4c9975d71135"
+  }
 }
