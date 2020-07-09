@@ -13,11 +13,11 @@ export interface Book{
 export class BookService {
 
   constructor(private http: HttpClient) { }
-
+  
   getBooks() {
     return this.http.get<any>('assets/books.json')
     .toPromise()
     .then(res => <Book[]>res.data)
-    .then(data => { return data;});
+    .then(data => {return data;});
   }
 }

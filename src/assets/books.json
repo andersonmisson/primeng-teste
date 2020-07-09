@@ -1,7 +1,7 @@
 {
     "data":[
-    {"name": "The Godfather", "prince": 10, "author": "Mario Puzo"},
-    {"name": "The Lord Of The Rings", "prince": 15, "author": "J.R.R. Tolkien"},
-    {"name": "Harry Potter 1", "prince": 20, "author": "J.K. Rowling"}
+        {"name": "The Godfather", "price": 10, "author": "Mario Puzo"},
+        {"name": "The Lord Of The Rings", "price": 15, "author": "J.R.R. Tolkien"},
+        {"name": "Harry Potter 1", "price": 20, "author": "J.K. Rowling"}
     ]
 }
