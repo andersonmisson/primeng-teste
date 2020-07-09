@@ -1,10 +1,12 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BookDataComponent } from './book-data/book-data.component';
-import {TableModule} from 'primeng/table';
+import { TableModule } from 'primeng/table';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,8 @@ import {TableModule} from 'primeng/table';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TableModule
+    TableModule,
+    HttpClient
   ],
   providers: [],
   bootstrap: [AppComponent]
